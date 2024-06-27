@@ -41,14 +41,6 @@
       "account": "1",
       "category": "3c1a",
       "amount": 100
-    },
-    {
-      "type": "Income",
-      "date": "2024-06-06",
-      "account": "1",
-      "category": "3c1a",
-      "amount": 410,
-      "id": "dc04"
     }
   ],
   "categories": [
