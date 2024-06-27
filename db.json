@@ -1,124 +1,115 @@
 {
-    "expenses": [
-      {
-        "id": "123",
-        "type": "expense",
-        "date": "2024-06-20",
-        "account": "Debit",
-        "category": "Other (Expenses)",
-        "amount": 100 
-      },
-      {
-        "id": "29",
-        "type": "expense",
-        "date": "2024-06-15",
-        "account": "Credit",
-        "category": "Travelser",
-        "amount": 100
-      }
-
-    ],
-    "PaymentType": [
-      {
-        "id": 1,
-        "name": "Credit",
-        "balnce": 799
-      },
-      {
-        "id": 2,
-        "name": "Debit",
-        "balnce": 1810
-      },
-      {
-        "id": 3,
-        "name": "Cash",
-        "balnce": 1901
-      }
-    ],
-    "income": [
-     
-      {
-        "id": "09a9",
-        "date": "2024-06-13",
-        "account": "Credit",
-        "category": "asaa",
-        "amount": 100
-      },
-      {
-        "id": "b198",
-        "type": "income",
-        "date": "2024-05-10",
-        "account": "Credit",
-        "category": "asaa",
-        "amount": 100
-      },
-      {
-        "id": "7bb7",
-        "date": "2024-06-01",
-        "account": "Credit",
-        "category": "asaa",
-        "amount": 100
-      }
-    ],
-    "categories": [
-      {
-        "id": "1",
-        "name": "Income",
-        "type": "income",
-        "isOpen": true
-      },
-      {
-        "id": "2",
-        "name": "Expenses",
-        "type": "expense",
-        "isOpen": true
-      }
-    ],
-    "subcategories": [
-      {
-        "id": "29",
-        "name": "Travelser",
-        "categoryId": "2"
-      },
-      {
-        "id": "30",
-        "name": "Other (Expenses)",
-        "categoryId": "2"
-      },
-      {
-        "id": "3c1a",
-        "name": "asaa",
-        "categoryId": "1"
-      },
-      {
-        "id": "83ec",
-        "name": "Clothing",
-        "categoryId": "2"
-      },
-      {
-        "id": "be0d",
-        "name": "Shoes",
-        "categoryId": "2"
-      },
-      {
-        "id": "11cf",
-        "name": "Gifts",
-        "categoryId": "2"
-      },
-      {
-        "id": "dccd",
-        "name": "Fuel",
-        "categoryId": "2"
-      },
-      {
-        "id": "9ff5",
-        "name": "Entertainment ",
-        "categoryId": "2"
-      },
-      {
-        "id": "c7c3",
-        "name": "foods",
-        "categoryId": "2"
-      }
-    ]
-  }
+  "expenses": [
+    {
+      "type": "Expense",
+      "date": "2024-06-11",
+      "account": "2",
+      "category": "29",
+      "amount": 500,
+      "id": "e026"
+    },
+    {
+      "type": "Expense",
+      "date": "2024-06-13",
+      "account": "2",
+      "category": "83ec",
+      "amount": 1000,
+      "id": "887c"
+    }
+  ],
+  "PaymentType": [
+    {
+      "id": "1",
+      "name": "Credite",
+      "balnce": 1298
+    },
+    {
+      "id": "2",
+      "name": "Debit",
+      "balnce": 4130
+    },
+    {
+      "id": "3",
+      "name": "Cash",
+      "balnce": 5000
+    }
+  ],
+  "income": [
+    {
+      "id": "181c",
+      "date": "2024-06-06",
+      "account": "1",
+      "category": "3c1a",
+      "amount": 100
+    },
+    {
+      "type": "Income",
+      "date": "2024-06-06",
+      "account": "1",
+      "category": "3c1a",
+      "amount": 410,
+      "id": "dc04"
+    }
+  ],
+  "categories": [
+    {
+      "id": "1",
+      "name": "Income",
+      "type": "income",
+      "isOpen": true
+    },
+    {
+      "id": "2",
+      "name": "Expenses",
+      "type": "expense",
+      "isOpen": true
+    }
+  ],
+  "subcategories": [
+    {
+      "id": "29",
+      "name": "Travelsers",
+      "categoryId": "2"
+    },
+    {
+      "id": "30",
+      "name": "Other (Expenses)",
+      "categoryId": "2"
+    },
+    {
+      "id": "3c1a",
+      "name": "asaaa",
+      "categoryId": "1"
+    },
+    {
+      "id": "83ec",
+      "name": "Clothing",
+      "categoryId": "2"
+    },
+    {
+      "id": "be0d",
+      "name": "Shoes",
+      "categoryId": "2"
+    },
+    {
+      "id": "11cf",
+      "name": "Gifts",
+      "categoryId": "2"
+    },
+    {
+      "id": "dccd",
+      "name": "Fuel",
+      "categoryId": "2"
+    },
+    {
+      "id": "9ff5",
+      "name": "Entertainment ",
+      "categoryId": "2"
+    },
+    {
+      "id": "c7c3",
+      "name": "foods",
+      "categoryId": "2"
+    }
+  ]
+}
