@@ -143,7 +143,7 @@
     },
     {
       "id": "9d47",
-      "date": "2024-07-11T18:30:00.000Z",
+      "date": "2024-07-11",
       "account": "2",
       "category": "3c1a",
       "amount": 85,
@@ -151,7 +151,7 @@
     },
     {
       "id": "de68",
-      "date": "2024-07-15T18:30:00.000Z",
+      "date": "2024-07-15",
       "account": "aebf",
       "category": "3c1a",
       "amount": 100,
@@ -159,7 +159,7 @@
     },
     {
       "id": "a544",
-      "date": "2024-07-02T18:30:00.000Z",
+      "date": "2024-07-02",
       "account": "aebf",
       "category": "3c1a",
       "amount": 10,
@@ -233,7 +233,7 @@
       "firstName": "mjunav",
       "lastName": "popa",
       "email": "jayesh@gmail.com",
-      "password": "123"
+      "password": "123@ABCabc"
     },
     {
       "id": "3caa",
